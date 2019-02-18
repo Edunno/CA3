@@ -87,7 +87,7 @@
                             <server>TomcatServer</server>
                             <path>/Kurt</path>
                             <username>admin</username>
-                            <password>1234</password>
+                            <password>pass1234</password>
                             <update>true</update>
                         </configuration>  
                     </plugin>
