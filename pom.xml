@@ -74,7 +74,7 @@
     </build>
     
     <profiles>
-                 <profile>
+        <profile>
             <id>deployremote</id>
             <build>
                 <plugins>
@@ -83,7 +83,7 @@
                         <artifactId>tomcat7-maven-plugin</artifactId>  
                         <version>2.2</version>  
                         <configuration>
-                            <url>http://kognetiv.dk/manager/text</url>  
+                            <url>http://kognetiv.dk:8080/manager/text</url>  
                             <server>TomcatServer</server>
                             <path>/Kurt</path>
                             <username>admin</username>
